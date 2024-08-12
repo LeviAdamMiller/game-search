@@ -10,6 +10,7 @@ import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
 
 export interface GameQuery {
+  parent_platform: any;
   genre: Genre | null;
   platform: Platform | null;
   sortOrder: string;
